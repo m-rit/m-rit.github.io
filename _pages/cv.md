@@ -9,56 +9,35 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * Github University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+- M.S. in Computer Science, Texas A&M University, United States, 2025 (Expected)
+- B.Tech. in Electronics Engineering, IIT Kharagpur, 2020
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Professional experience
 
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Backend Developer | Cisco Systems, India | 2020 - 2023**
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+- Owned and developed key enhancements in authentication microservices for a B2B SaaS platform, now widely adopted by numerous customer accounts.
+- Enabled platform hosting in a new region by large-scale refactoring of the codebase to enable multi-region login.
+- Reduced login times during outages by developing a microservice with OAuth capabilities to authenticate internal engineers, resulting in faster debugging and resolution.
+- Researched and conceptualized a secret-sharing-based account recovery mechanism for locked-out customers.
+- Enhanced open-source libraries used in the core login system, driving improvements aligned with platform requirements.
+- Resolved critical concurrency and threading issues in code, fixing future database corruptions and eliminating significant recovery time.
+
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Skills
+* Languages:
+  * Golang
+  * Python
+  * C++
+  * Rust
+  * Typescript
+* Databases:
+  * MongoDb
+  * PostgreSql
+
+## Awards
+- ISC2 Graduate Scholarship, 2024
+- Department Fellowship, Texas A&M CS Dept., 2023
+- Best B.Tech Thesis, 2020
