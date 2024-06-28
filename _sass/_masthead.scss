@@ -42,27 +42,38 @@
   justify-content: space-between; /* Aligns items to both ends (left and right) */
 }
 
-.masthead__menu ul {
+.masthead__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.masthead__menu-left,
+.masthead__menu-right {
+  display: flex;
+}
+
+.masthead__menu-left ul,
+.masthead__menu-right ul {
+  display: flex;
   margin: 0;
   padding: 0;
   list-style-type: none;
-  display: flex; /* Displays items horizontally */
 }
 
 .masthead__menu-item {
-  margin-right: 1em; /* Adjust spacing between items */
+  margin-right: 1em;
 }
 
-.masthead__menu-item--lg {
-  padding-right: 2em;
-  font-weight: 700;
+.masthead__menu-item a {
+  color: #333; /* Ensure links inherit the color */
+  text-decoration: none; /* Optional: Remove underline */
 }
 
-/* Specific styling for "Home" item */
-.masthead__menu-item--home {
-   margin-right: auto; /* Places "Home" at the beginning */
+.masthead__menu-item a:hover {
+  text-decoration: underline; /* Example: Add underline on hover */
 }
-
 /* Align items to the right */
 .masthead__menu ul {
   justify-content: flex-end; /* Aligns items to the right */
