@@ -5,7 +5,6 @@
 .masthead {
   position: fixed;
   background: white;
-  border-bottom: 1px solid $border-color;
   height: $masthead-height;
   top: 0;
   width: 100%;
@@ -21,7 +20,7 @@
     @include clearfix;
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
-
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
@@ -56,7 +55,7 @@
 }
 
 .masthead__name {
-  font-size: 1em; /* Adjust as needed */
+  font-size: 1.25em; /* Adjust as needed */
   font-weight: bold; /* Make the name bold */
 }
 
