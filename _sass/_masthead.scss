@@ -37,14 +37,18 @@
 }
 
 .masthead__menu {
-
-  ul {
-    margin: 0;
-    padding: 0;
-    clear: both;
-    list-style-type: none;
-  }
+  display: flex;
+  justify-content: flex-end; /* Aligns the menu items to the right */
 }
+
+.masthead__menu ul {
+  margin: 0;
+  padding: 0;
+  clear: both;
+  list-style-type: none;
+  display: flex; /* Ensures the list items are displayed in a row */
+}
+
 
 .masthead__menu-item {
   display: block;
