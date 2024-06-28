@@ -56,7 +56,7 @@
 }
 
 .masthead__name {
-  font-size: 1.5em; /* Adjust as needed */
+  font-size: larger; /* Adjust as needed */
   font-weight: bold; /* Make the name bold */
 }
 
@@ -70,6 +70,7 @@
 
 .masthead__menu-item {
   margin-right: 1em;
+  font-weight: bold; 
 }
 
 .masthead__menu-item a {
