@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About me"
+title                    : "                   "
 title_separator          : "-"
 name                     : &name "Rituparna Mandal"
 description              : &description ""
@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Rituparna Mandal"
-  pronouns         : # example: "she/her"  
-  bio              : #"Short biography for the left-hand sidebar"
+  pronouns         : "she/her"  
+  bio              : ""
   location         : "Bryan, Texas"
-  employer         : "Red Brick University"
+  employer         : "Texas A&M University"
   uri              : # URL
   email            : "ritu251297@gmail.com" 
 
