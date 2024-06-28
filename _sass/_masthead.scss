@@ -52,6 +52,12 @@
 .masthead__menu-left,
 .masthead__menu-right {
   display: flex;
+  align-items: center; /* Vertically center the name */
+}
+
+.masthead__name {
+  font-size: 1.5em; /* Adjust as needed */
+  font-weight: bold; /* Make the name bold */
 }
 
 .masthead__menu-left ul,
@@ -89,10 +95,5 @@
   text-decoration: underline; /* Example: Add underline on hover */
 }
 
-/* Make sure masthead__menu-left and masthead__menu-right are on the same line */
-.masthead__menu-left,
-.masthead__menu-right {
-  display: flex;
-  align-items: center;
-}
+
 
