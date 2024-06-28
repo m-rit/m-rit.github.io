@@ -89,3 +89,10 @@
   text-decoration: underline; /* Example: Add underline on hover */
 }
 
+/* Make sure masthead__menu-left and masthead__menu-right are on the same line */
+.masthead__menu-left,
+.masthead__menu-right {
+  display: flex;
+  align-items: center;
+}
+
