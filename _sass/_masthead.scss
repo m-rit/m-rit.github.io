@@ -21,6 +21,7 @@
     padding: 1em 1em 1em;
     font-family: $sans-serif-narrow;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.1);
+    background: white;
     @include breakpoint($x-large) {
       max-width: $x-large;
     }
