@@ -36,22 +36,45 @@
   }
 }
 
+
 .masthead__menu {
   display: flex;
-  justify-content: flex-end; /* Aligns the menu items to the right */
+  justify-content: space-between; /* Aligns items to both ends (left and right) */
 }
 
 .masthead__menu ul {
   margin: 0;
   padding: 0;
-  clear: both;
   list-style-type: none;
-  display: flex; /* Ensures the list items are displayed in a row */
+  display: flex; /* Displays items horizontally */
 }
-
 
 .masthead__menu-item {
-  display: block;
-  list-style-type: none;
-  white-space: nowrap;
+  margin-right: 1em; /* Adjust spacing between items */
 }
+
+.masthead__menu-item--lg {
+  padding-right: 2em;
+  font-weight: 700;
+}
+
+/* Specific styling for "Home" item */
+.masthead__menu-item--home {
+  order: -1; /* Places "Home" at the beginning */
+}
+
+/* Align items to the right */
+.masthead__menu ul {
+  justify-content: flex-end; /* Aligns items to the right */
+}
+
+/* Hover effect for links */
+.masthead__menu-item a {
+  color: #333; /* Ensure links inherit the color */
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+.masthead__menu-item a:hover {
+  text-decoration: underline; /* Example: Add underline on hover */
+}
+
