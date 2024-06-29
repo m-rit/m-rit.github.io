@@ -10,8 +10,27 @@ var $btn = $('#site-nav button');
 var $vlinks = $('#site-nav .visible-links');
 var $hlinks = $('#site-nav .hidden-links');
 
-var breaks = [];
+function updateNav() {
+  var availableSpace = $nav.width();
 
+  // The visible list is overflowing the nav
+  if ($vlinks.width() > availableSpace) {
+    // Move all items to the hidden list
+    $vlinks.children().appendTo($hlinks);
+
+    // Show the dropdown button
+    $btn.removeClass('hidden');
+    $hlinks.removeClass('hidden');
+  } else {
+    // Move all items to the visible list
+    $hlinks.children().appendTo($vlinks);
+
+    // Hide the dropdown button if there is enough space
+    if ($vlinks.width() <= availableSpace) {
+      $btn.addClass('hidden');
+      $hlinks.addClass('hidden');
+    }
+  }
 function updateNav() {
 
   var availableSpace =  $nav.width();
