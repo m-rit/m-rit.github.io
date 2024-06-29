@@ -23,6 +23,7 @@ function updateNav() {
     breaks.push($vlinks.width());
 
     // Move item to the hidden list
+
     $vlinks.children().last().prependTo($hlinks);
 
     // Show the dropdown btn
