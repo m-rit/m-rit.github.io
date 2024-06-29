@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : ""
+title                    : "RITUPARNA MANDAL"
 title_separator          : "-"
 name                     : &name "Rituparna Mandal"
 description              : &description ""
@@ -22,7 +22,6 @@ repository               : "m-rit/m-rit.github.io"
 author:
   # Biographic information
   avatar           : "linkedinpic.jpg"
-  name             : "Rituparna Mandal" 
   pronouns         : ""  
   bio              : ""
   location         : "Bryan, Texas"
