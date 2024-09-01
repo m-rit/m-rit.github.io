@@ -16,7 +16,8 @@ redirect_from:
 
 ## Professional experience
 
-**Backend Developer | Cisco Systems, India | 2020 - 2023**
+### Backend Developer | Cisco Systems, India | 2020 - 2023
+---
 
 - Owned and developed key enhancements in authentication microservices for a B2B SaaS platform, now widely adopted by numerous customer accounts.
 - Enabled platform hosting in a new region by large-scale refactoring of the codebase to enable multi-region login.
@@ -27,17 +28,13 @@ redirect_from:
 
   
 ## Skills
-* Languages:
-  * Golang
-  * Python
-  * C++
-  * Rust
-  * Typescript
-* Databases:
-  * MongoDb
-  * PostgreSql
+* Languages: Golang, Python, C++, Rust, Typescript
+* Databases: MongoDB, PostgreSQL
 
 ## Awards
 - ISC2 Graduate Scholarship, 2024
 - Department Fellowship, Texas A&M CS Dept., 2023
 - Best B.Tech Thesis, 2020
+
+
+[View PDF Resume](https://drive.google.com/file/d/1xgMqgTL4Ja7v-YOzFwexJR8N14hKy4TT/view)
