@@ -1,6 +1,6 @@
 ---
 title: "Agora Vote"
-excerpt: " Agora Vote is a voting platform that ensures end-to-end verifiability, enabling transparent and auditable elections. Unlike traditional voting systems where users are only invited to elections, AgoraVote allows individuals to maintain personal profiles, fostering a long-term history of participation. <br/><img src='/images/PP2.png'>"
+excerpt: " Agora Vote is a voting platform that ensures end-to-end verifiability, enabling transparent and auditable elections. Unlike traditional voting systems, AgoraVote allows individuals to maintain personal profiles, fostering a long-term history of participation. <br/>"
 collection: portfolio
 ---
 

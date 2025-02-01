@@ -1,6 +1,6 @@
 ---
 title: "Coinomad"
-excerpt: " Coinomad is a crypto payroll application that facilitates payroll processing in cryptocurrency, enabling companies to pay employees in digital assets. The backend was transitioned from JavaScript to Golang to improve performance, scalability, and support for future blockchain integrations.<br/><img src='/images/PP2.png'>"
+excerpt: " Coinomad is a crypto payroll application that facilitates payroll processing in cryptocurrency, enabling companies to pay employees in digital assets. The backend was transitioned from JavaScript to Golang to improve performance, scalability, and support for future blockchain integrations.<br/>"
 collection: portfolio
 ---
 
