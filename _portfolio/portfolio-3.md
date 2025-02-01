@@ -1,25 +1,17 @@
 ---
-title: "Agora Vote"
-excerpt: " Agora Vote is a voting platform that ensures end-to-end verifiability, enabling transparent and auditable elections. Unlike traditional voting systems where users are only invited to elections, AgoraVote allows individuals to maintain personal profiles, fostering a long-term history of participation. <br/><img src='/images/PP2.png'>"
+title: "Coinomad"
+excerpt: " Coinomad is a crypto payroll application that facilitates payroll processing in cryptocurrency, enabling companies to pay employees in digital assets. The backend was transitioned from JavaScript to Golang to improve performance, scalability, and support for future blockchain integrations.<br/><img src='/images/PP2.png'>"
 collection: portfolio
 ---
 
-Agora Vote is an early-stage MVP, developed by a team of three, where I am responsible for backend design.
+In my role at Coinomad, an early-stage crypto payroll application, I contributed to the backend transition from JavaScript to Golang. This project involves building a platform that facilitates payroll processing in cryptocurrency, providing companies with a seamless way to pay their employees in digital assets. 
 
 ## Motivation
 
-A previous iteration of this product, built around 2 years ago, was a Python-based web application that only allowed users to participate in elections upon invitation. In this iteration, we are expanding its scope by integrating social elements—enabling users to share their thoughts, discuss policies, and contribute to a community-driven voting ecosystem.
+ I reached out to one of the owners of Coinomad for potential blockchain-related projects, and they welcomed me to contribute to this application. The motivation to switch to Go was easy support by future members and speedup from current . There are some feature enhancements planned for future where using Go for backend makes more sense.
+
+## Technical Discussions
 
 
-## Backend Design & Tech Stack:
+<!--## My learnings-->
 
-
-Golang for Core Services – Used for its concurrency model, which helps handle high-throughput user iteraction events efficiently.
-
-ElectionGuard (C++ / Rust) – open source code that handles end-to-end verifiable encryption.
-
-Microservices Architecture – ElectionGuard(3rd party code) is implemented in C++/Rust, while the core backend is in Golang - microservices approach to ensures ElectionGuard can run as an isolated service.
-
-PostgreSQL – Chosen for its ACID compliance, ensuring that vote data is consistent and durable.
-
-Kafka for Event Processing – Used to manage real-time updates on election progress and user activity without blocking main processes.
