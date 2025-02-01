@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: "Resume"
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -8,6 +8,8 @@ redirect_from:
 ---
 
 {% include base_path %}
+
+[Download PDF Resume](https://drive.google.com/file/d/1xgMqgTL4Ja7v-YOzFwexJR8N14hKy4TT/view)
 
 ## Education
 
@@ -26,6 +28,18 @@ redirect_from:
 - Enhanced open-source libraries used in the core login system, driving improvements aligned with platform requirements.
 - Resolved critical concurrency and threading issues in code, fixing future database corruptions and eliminating significant recovery time.
 
+## DEVELOPMENT INITIATIVES
+
+* Coinomad: Golang, Python, C++, Rust, Typescript
+- Owned and developed key enhancements in authentication microservices for a B2B SaaS platform, now widely adopted by numerous customer accounts.
+- Enabled platform hosting in a new region by large-scale refactoring of the codebase to enable multi-region login.
+- Reduced login times during outages by developing a microservice with OAuth capabilities to authenticate internal engineers,
+ resulting in faster debugging and resolution.
+
+* Agora-vote: MongoDB, PostgreSQL
+- Owned and developed key enhancements in authentication microservices for a B2B SaaS platform, now widely adopted by numerous customer accounts.
+- Enabled platform hosting in a new region by large-scale refactoring of the codebase to enable multi-region login.
+- Reduced login times during outages by developing a microservice with OAuth capabilities to authenticate internal engineers, resulting in faster debugging and resolution.
   
 ## Skills
 * Languages: Golang, Python, C++, Rust, Typescript
@@ -37,4 +51,3 @@ redirect_from:
 - Best B.Tech Thesis, 2020
 
 
-[View PDF Resume](https://drive.google.com/file/d/1xgMqgTL4Ja7v-YOzFwexJR8N14hKy4TT/view)
