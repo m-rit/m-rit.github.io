@@ -28,6 +28,9 @@ redirect_from:
 - Enhanced open-source libraries used in the core login system, driving improvements aligned with platform requirements.
 - Resolved critical concurrency and threading issues in code, fixing future database corruptions and eliminating significant recovery time.
 
+### Internship
+
+
 ## DEVELOPMENT INITIATIVES
 
 * Coinomad: Golang, Python, C++, Rust, Typescript
@@ -44,10 +47,16 @@ redirect_from:
 ## Skills
 * Languages: Golang, Python, C++, Rust, Typescript
 * Databases: MongoDB, PostgreSQL
+* Tools: 
+* Networking: GRPC, Kafka, Kubernetes
+* Security: 
+
 
 ## Awards
 - ISC2 Graduate Scholarship, 2024
-- Department Fellowship, Texas A&M CS Dept., 2023
+- Department Fellowship, Texas A&M CS Dept., 2023 & 2024
 - Best B.Tech Thesis, 2020
+
+
 
 
