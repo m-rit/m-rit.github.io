@@ -1,6 +1,6 @@
 ---
-title: "MPC Wallet"
-excerpt: "In addition to my professional work, I occasionally build small tools and extensions to improve my productivity and experience online. <br/>"
+title: "Multi Party Computation Wallet"
+excerpt: "simple wallet application built with Go. The application simulates basic wallet functionalities, allowing users to create wallets, manage balances, and perform transactions. <br/>"
 collection: portfolio
 ---
 
